@@ -1,0 +1,25 @@
+{
+  "servers": {
+    "github-mcp": {
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp"
+    },
+   
+    "db": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@bytebase/dbhub",
+        "--dsn",
+        "postgresql://url:5432/qti?user=username&password=password&sslmode=disable"
+      ]
+    },
+   
+    "atlassian-mcp-server": {
+      "url": "https://mcp.atlassian.com/v1/mcp",
+      "type": "http"
+    }
+  }
+}
+ 

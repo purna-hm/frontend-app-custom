@@ -1,0 +1,692 @@
+{
+  "target": "vscode",
+  "installed": {
+    "feature-orchestrator": {
+      "type": "agent",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/agents/feature-orchestrator.agent.md",
+      "installedAt": "2026-03-11T06:53:58.719Z",
+      "fromTeam": "python-full",
+      "agentType": "orchestrators"
+    },
+    "task-orchestrator": {
+      "type": "agent",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/agents/task-orchestrator.agent.md",
+      "installedAt": "2026-03-11T06:53:58.718Z",
+      "fromTeam": "python-full",
+      "agentType": "orchestrators"
+    },
+    "api-designer": {
+      "type": "agent",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/agents/api-designer.agent.md",
+      "installedAt": "2026-03-11T06:53:58.719Z",
+      "fromTeam": "python-full",
+      "agentType": "dedicated"
+    },
+    "architect": {
+      "type": "agent",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/agents/architect.agent.md",
+      "installedAt": "2026-03-11T06:53:58.720Z",
+      "fromTeam": "python-full",
+      "agentType": "dedicated"
+    },
+    "reporting-agent": {
+      "type": "agent",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/agents/reporting-agent.agent.md",
+      "installedAt": "2026-03-11T06:53:58.727Z",
+      "fromTeam": "python-full",
+      "agentType": "dedicated"
+    },
+    "coding-agent": {
+      "type": "agent",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/agents/coding-agent.agent.md",
+      "installedAt": "2026-03-11T06:53:58.721Z",
+      "fromTeam": "python-full",
+      "agentType": "dedicated"
+    },
+    "testing-specialist": {
+      "type": "agent",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/agents/testing-specialist.agent.md",
+      "installedAt": "2026-03-11T06:53:58.729Z",
+      "fromTeam": "python-full",
+      "agentType": "dedicated"
+    },
+    "code-reviewer": {
+      "type": "agent",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/agents/code-reviewer.agent.md",
+      "installedAt": "2026-03-11T06:53:58.732Z",
+      "fromTeam": "python-full",
+      "agentType": "shared"
+    },
+    "documentation-writer": {
+      "type": "agent",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/agents/documentation-writer.agent.md",
+      "installedAt": "2026-03-11T06:53:58.734Z",
+      "fromTeam": "python-full",
+      "agentType": "shared"
+    },
+    "git-ops": {
+      "type": "agent",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/agents/git-ops.agent.md",
+      "installedAt": "2026-03-11T06:53:58.736Z",
+      "fromTeam": "python-full",
+      "agentType": "shared"
+    },
+    "jira-agent": {
+      "type": "agent",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/agents/jira-agent.agent.md",
+      "installedAt": "2026-03-11T06:53:58.736Z",
+      "fromTeam": "python-full",
+      "agentType": "shared"
+    },
+    "project-scanner": {
+      "type": "agent",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/agents/project-scanner.agent.md",
+      "installedAt": "2026-03-11T06:53:58.739Z",
+      "fromTeam": "python-full",
+      "agentType": "shared"
+    },
+    "local-deploy-agent": {
+      "type": "agent",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/agents/local-deploy-agent.agent.md",
+      "installedAt": "2026-03-11T06:53:58.737Z",
+      "fromTeam": "python-full",
+      "agentType": "shared"
+    },
+    "api-validation": {
+      "type": "skill",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/api-validation/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.750Z",
+      "fromTeam": "python-full"
+    },
+    "pydantic-schemas": {
+      "type": "skill",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/pydantic-schemas/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.763Z",
+      "fromTeam": "python-full"
+    },
+    "async-specialist": {
+      "type": "agent",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/agents/async-specialist.agent.md",
+      "installedAt": "2026-03-11T06:53:58.720Z",
+      "fromTeam": "python-full",
+      "agentType": "dedicated"
+    },
+    "task-queue-specialist": {
+      "type": "agent",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/agents/task-queue-specialist.agent.md",
+      "installedAt": "2026-03-11T06:53:58.728Z",
+      "fromTeam": "python-full",
+      "agentType": "dedicated"
+    },
+    "database-specialist": {
+      "type": "agent",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/agents/database-specialist.agent.md",
+      "installedAt": "2026-03-11T06:53:58.723Z",
+      "fromTeam": "python-full",
+      "agentType": "dedicated"
+    },
+    "async-patterns": {
+      "type": "skill",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/async-patterns/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.750Z",
+      "fromTeam": "python-full"
+    },
+    "celery-worker": {
+      "type": "skill",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/celery-worker/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.753Z",
+      "fromTeam": "python-full"
+    },
+    "type-safety-specialist": {
+      "type": "agent",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/agents/type-safety-specialist.agent.md",
+      "installedAt": "2026-03-11T06:53:58.729Z",
+      "fromTeam": "python-full",
+      "agentType": "dedicated"
+    },
+    "dependency-manager": {
+      "type": "agent",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/agents/dependency-manager.agent.md",
+      "installedAt": "2026-03-11T06:53:58.724Z",
+      "fromTeam": "python-full",
+      "agentType": "dedicated"
+    },
+    "pytest-unit": {
+      "type": "skill",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/pytest-unit/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.764Z",
+      "fromTeam": "python-full"
+    },
+    "type-annotations": {
+      "type": "skill",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/type-annotations/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.766Z",
+      "fromTeam": "python-full"
+    },
+    "dependency-management": {
+      "type": "skill",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/dependency-management/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.755Z",
+      "fromTeam": "python-full"
+    },
+    "migration-specialist": {
+      "type": "agent",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/agents/migration-specialist.agent.md",
+      "installedAt": "2026-03-11T06:53:58.738Z",
+      "fromTeam": "python-full",
+      "agentType": "shared"
+    },
+    "content-extractor": {
+      "type": "agent",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/agents/content-extractor.agent.md",
+      "installedAt": "2026-03-11T06:53:58.732Z",
+      "fromTeam": "python-full",
+      "agentType": "shared"
+    },
+    "alembic-migrations": {
+      "type": "skill",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/alembic-migrations/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.746Z",
+      "fromTeam": "python-full"
+    },
+    "security-auditor": {
+      "type": "agent",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/agents/security-auditor.agent.md",
+      "installedAt": "2026-03-11T06:53:58.740Z",
+      "fromTeam": "python-full",
+      "agentType": "shared"
+    },
+    "cli-builder": {
+      "type": "agent",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/agents/cli-builder.agent.md",
+      "installedAt": "2026-03-11T06:53:58.721Z",
+      "fromTeam": "python-full",
+      "agentType": "dedicated"
+    },
+    "config-specialist": {
+      "type": "agent",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/agents/config-specialist.agent.md",
+      "installedAt": "2026-03-11T06:53:58.722Z",
+      "fromTeam": "python-full",
+      "agentType": "dedicated"
+    },
+    "crud-specialist": {
+      "type": "agent",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/agents/crud-specialist.agent.md",
+      "installedAt": "2026-03-11T06:53:58.722Z",
+      "fromTeam": "python-full",
+      "agentType": "dedicated"
+    },
+    "data-modeling-specialist": {
+      "type": "agent",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/agents/data-modeling-specialist.agent.md",
+      "installedAt": "2026-03-11T06:53:58.723Z",
+      "fromTeam": "python-full",
+      "agentType": "dedicated"
+    },
+    "error-handler": {
+      "type": "agent",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/agents/error-handler.agent.md",
+      "installedAt": "2026-03-11T06:53:58.724Z",
+      "fromTeam": "python-full",
+      "agentType": "dedicated"
+    },
+    "event-specialist": {
+      "type": "agent",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/agents/event-specialist.agent.md",
+      "installedAt": "2026-03-11T06:53:58.725Z",
+      "fromTeam": "python-full",
+      "agentType": "dedicated"
+    },
+    "integration-specialist": {
+      "type": "agent",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/agents/integration-specialist.agent.md",
+      "installedAt": "2026-03-11T06:53:58.725Z",
+      "fromTeam": "python-full",
+      "agentType": "dedicated"
+    },
+    "observability-engineer": {
+      "type": "agent",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/agents/observability-engineer.agent.md",
+      "installedAt": "2026-03-11T06:53:58.726Z",
+      "fromTeam": "python-full",
+      "agentType": "dedicated"
+    },
+    "performance-optimizer": {
+      "type": "agent",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/agents/performance-optimizer.agent.md",
+      "installedAt": "2026-03-11T06:53:58.727Z",
+      "fromTeam": "python-full",
+      "agentType": "dedicated"
+    },
+    "resilience-engineer": {
+      "type": "agent",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/agents/resilience-engineer.agent.md",
+      "installedAt": "2026-03-11T06:53:58.728Z",
+      "fromTeam": "python-full",
+      "agentType": "dedicated"
+    },
+    "validation-specialist": {
+      "type": "agent",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/agents/validation-specialist.agent.md",
+      "installedAt": "2026-03-11T06:53:58.730Z",
+      "fromTeam": "python-full",
+      "agentType": "dedicated"
+    },
+    "ci-cd-agent": {
+      "type": "agent",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/agents/ci-cd-agent.agent.md",
+      "installedAt": "2026-03-11T06:53:58.731Z",
+      "fromTeam": "python-full",
+      "agentType": "shared"
+    },
+    "ci-cd-ops": {
+      "type": "skill",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/ci-cd-ops/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.767Z",
+      "fromTeam": "python-full"
+    },
+    "database-admin": {
+      "type": "agent",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/agents/database-admin.agent.md",
+      "installedAt": "2026-03-11T06:53:58.733Z",
+      "fromTeam": "python-full",
+      "agentType": "shared"
+    },
+    "figma-design-interpreter": {
+      "type": "agent",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/agents/figma-design-interpreter.agent.md",
+      "installedAt": "2026-03-11T06:53:58.734Z",
+      "fromTeam": "python-full",
+      "agentType": "shared"
+    },
+    "figma-ops": {
+      "type": "skill",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/figma-ops/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.768Z",
+      "fromTeam": "python-full"
+    },
+    "refactoring-agent": {
+      "type": "agent",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/agents/refactoring-agent.agent.md",
+      "installedAt": "2026-03-11T06:53:58.739Z",
+      "fromTeam": "python-full",
+      "agentType": "shared"
+    },
+    "test-writer": {
+      "type": "agent",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/agents/test-writer.agent.md",
+      "installedAt": "2026-03-11T06:53:58.741Z",
+      "fromTeam": "python-full",
+      "agentType": "shared"
+    },
+    "ui-inspector": {
+      "type": "agent",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/agents/ui-inspector.agent.md",
+      "installedAt": "2026-03-11T06:53:58.742Z",
+      "fromTeam": "python-full",
+      "agentType": "shared"
+    },
+    "browser-automation": {
+      "type": "skill",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/browser-automation/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.767Z",
+      "fromTeam": "python-full"
+    },
+    "visual-qa-agent": {
+      "type": "agent",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/agents/visual-qa-agent.agent.md",
+      "installedAt": "2026-03-11T06:53:58.744Z",
+      "fromTeam": "python-full",
+      "agentType": "shared"
+    },
+    "visual-comparison": {
+      "type": "skill",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/visual-comparison/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.772Z",
+      "fromTeam": "python-full"
+    },
+    "api-crud": {
+      "type": "skill",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/api-crud/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.747Z",
+      "fromTeam": "python-full"
+    },
+    "api-error-handling": {
+      "type": "skill",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/api-error-handling/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.748Z",
+      "fromTeam": "python-full"
+    },
+    "api-pagination": {
+      "type": "knowledge",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/knowledge-api-pagination/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.782Z",
+      "fromTeam": "python-full"
+    },
+    "background-tasks": {
+      "type": "skill",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/background-tasks/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.751Z",
+      "fromTeam": "python-full"
+    },
+    "celery-testing": {
+      "type": "skill",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/celery-testing/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.752Z",
+      "fromTeam": "python-full"
+    },
+    "cli-with-typer": {
+      "type": "skill",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/cli-with-typer/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.754Z",
+      "fromTeam": "python-full"
+    },
+    "dependency-injection": {
+      "type": "skill",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/dependency-injection/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.754Z",
+      "fromTeam": "python-full"
+    },
+    "django-orm": {
+      "type": "skill",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/django-orm/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.755Z",
+      "fromTeam": "python-full"
+    },
+    "event-streaming": {
+      "type": "skill",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/event-streaming/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.756Z",
+      "fromTeam": "python-full"
+    },
+    "fastapi-middleware": {
+      "type": "skill",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/fastapi-middleware/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.757Z",
+      "fromTeam": "python-full"
+    },
+    "flask-routing": {
+      "type": "skill",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/flask-routing/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.757Z",
+      "fromTeam": "python-full"
+    },
+    "graphql-dataloader": {
+      "type": "skill",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/graphql-dataloader/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.758Z",
+      "fromTeam": "python-full"
+    },
+    "graphql-schema-design": {
+      "type": "knowledge",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/knowledge-graphql-schema-design/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.786Z",
+      "fromTeam": "python-full"
+    },
+    "graphql-server-setup": {
+      "type": "skill",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/graphql-server-setup/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.760Z",
+      "fromTeam": "python-full"
+    },
+    "graphql-testing": {
+      "type": "skill",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/graphql-testing/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.761Z",
+      "fromTeam": "python-full"
+    },
+    "integration-testing": {
+      "type": "skill",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/integration-testing/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.762Z",
+      "fromTeam": "python-full"
+    },
+    "logging-config": {
+      "type": "skill",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/logging-config/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.762Z",
+      "fromTeam": "python-full"
+    },
+    "pytest-fixtures": {
+      "type": "skill",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/pytest-fixtures/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.764Z",
+      "fromTeam": "python-full"
+    },
+    "resilience-patterns": {
+      "type": "skill",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/resilience-patterns/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.765Z",
+      "fromTeam": "python-full"
+    },
+    "settings-management": {
+      "type": "skill",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/settings-management/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.765Z",
+      "fromTeam": "python-full"
+    },
+    "sqlalchemy-models": {
+      "type": "skill",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/sqlalchemy-models/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.766Z",
+      "fromTeam": "python-full"
+    },
+    "websocket-handler": {
+      "type": "skill",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/websocket-handler/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.767Z",
+      "fromTeam": "python-full"
+    },
+    "document-parser-skill": {
+      "type": "skill",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/document-parser-skill/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.768Z",
+      "fromTeam": "python-full"
+    },
+    "git-ops-skill": {
+      "type": "skill",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/git-ops-skill/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.769Z",
+      "fromTeam": "python-full"
+    },
+    "jira-ops": {
+      "type": "skill",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/jira-ops/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.769Z",
+      "fromTeam": "python-full"
+    },
+    "snyk-skill": {
+      "type": "skill",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/snyk-skill/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.770Z",
+      "fromTeam": "python-full"
+    },
+    "sonarqube-skill": {
+      "type": "skill",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/sonarqube-skill/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.771Z",
+      "fromTeam": "python-full"
+    },
+    "sonatype-skill": {
+      "type": "skill",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/sonatype-skill/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.771Z",
+      "fromTeam": "python-full"
+    },
+    "event-loop-blocking": {
+      "type": "knowledge",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/knowledge-event-loop-blocking/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.773Z",
+      "fromTeam": "python-full"
+    },
+    "n-plus-one": {
+      "type": "knowledge",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/knowledge-n-plus-one/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.773Z",
+      "fromTeam": "python-full"
+    },
+    "anemic-domain-model": {
+      "type": "knowledge",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/knowledge-anemic-domain-model/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.774Z",
+      "fromTeam": "python-full"
+    },
+    "god-service": {
+      "type": "knowledge",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/knowledge-god-service/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.774Z",
+      "fromTeam": "python-full"
+    },
+    "graphql-performance": {
+      "type": "knowledge",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/knowledge-graphql-performance/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.775Z",
+      "fromTeam": "python-full"
+    },
+    "leaky-abstraction": {
+      "type": "knowledge",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/knowledge-leaky-abstraction/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.776Z",
+      "fromTeam": "python-full"
+    },
+    "n-plus-one-query": {
+      "type": "knowledge",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/knowledge-n-plus-one-query/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.776Z",
+      "fromTeam": "python-full"
+    },
+    "api-naming": {
+      "type": "knowledge",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/knowledge-api-naming/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.777Z",
+      "fromTeam": "python-full"
+    },
+    "project-layout": {
+      "type": "knowledge",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/knowledge-project-layout/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.777Z",
+      "fromTeam": "python-full"
+    },
+    "commit-messages": {
+      "type": "knowledge",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/knowledge-commit-messages/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.779Z",
+      "fromTeam": "python-full"
+    },
+    "git-workflow": {
+      "type": "knowledge",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/knowledge-git-workflow/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.779Z",
+      "fromTeam": "python-full"
+    },
+    "pr-conventions": {
+      "type": "knowledge",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/knowledge-pr-conventions/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.780Z",
+      "fromTeam": "python-full"
+    },
+    "visual-testing-conventions": {
+      "type": "knowledge",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/knowledge-visual-testing-conventions/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.781Z",
+      "fromTeam": "python-full"
+    },
+    "outbox-pattern": {
+      "type": "knowledge",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/knowledge-outbox-pattern/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.781Z",
+      "fromTeam": "python-full"
+    },
+    "api-versioning": {
+      "type": "knowledge",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/knowledge-api-versioning/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.782Z",
+      "fromTeam": "python-full"
+    },
+    "ci-cd-patterns": {
+      "type": "knowledge",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/knowledge-ci-cd-patterns/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.783Z",
+      "fromTeam": "python-full"
+    },
+    "circuit-breaker": {
+      "type": "knowledge",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/knowledge-circuit-breaker/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.783Z",
+      "fromTeam": "python-full"
+    },
+    "cqrs": {
+      "type": "knowledge",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/knowledge-cqrs/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.784Z",
+      "fromTeam": "python-full"
+    },
+    "figma-design-system": {
+      "type": "knowledge",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/knowledge-figma-design-system/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.785Z",
+      "fromTeam": "python-full"
+    },
+    "graphql-error-handling": {
+      "type": "knowledge",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/knowledge-graphql-error-handling/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.785Z",
+      "fromTeam": "python-full"
+    },
+    "idempotency": {
+      "type": "knowledge",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/knowledge-idempotency/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.786Z",
+      "fromTeam": "python-full"
+    },
+    "retry-with-backoff": {
+      "type": "knowledge",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/knowledge-retry-with-backoff/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.787Z",
+      "fromTeam": "python-full"
+    },
+    "saga-pattern": {
+      "type": "knowledge",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/knowledge-saga-pattern/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.788Z",
+      "fromTeam": "python-full"
+    },
+    "INDEX": {
+      "type": "knowledge",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/knowledge-INDEX/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.788Z",
+      "fromTeam": "python-full"
+    },
+    "general-issues": {
+      "type": "knowledge",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/knowledge-general-issues/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.789Z",
+      "fromTeam": "python-full"
+    },
+    "version-compatibility": {
+      "type": "knowledge",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/skills/knowledge-version-compatibility/SKILL.md",
+      "installedAt": "2026-03-11T06:53:58.789Z",
+      "fromTeam": "python-full"
+    },
+    "01-architecture": {
+      "type": "profile",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/copilot-instructions.md",
+      "installedAt": "2026-03-11T06:53:58.790Z",
+      "fromTeam": "python-full"
+    },
+    "02-concurrency": {
+      "type": "profile",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/copilot-instructions.md",
+      "installedAt": "2026-03-11T06:53:58.790Z",
+      "fromTeam": "python-full"
+    },
+    "03-type-safety": {
+      "type": "profile",
+      "file": "/home/prathipati.c@happiestminds.com/projects/frontend-app-custom/.github/copilot-instructions.md",
+      "installedAt": "2026-03-11T06:53:58.790Z",
+      "fromTeam": "python-full"
+    }
+  }
+}
