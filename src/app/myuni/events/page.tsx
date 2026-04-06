@@ -4,7 +4,7 @@ export const metadata: Metadata = { title: "Events" };
 export default function Page() {
   return (
     <>
-      <PageHeader title="Events" subtitle="Campus life at MyUni University." breadcrumbs={[{ label: "Home", href: "/" }, { label: "SAGE Life", href: "/sage-life" }, { label: "Events" }]} />
+      <PageHeader title="Events" subtitle="Campus life at MyUni University." breadcrumbs={[{ label: "Home", href: "/" }, { label: "MyUni Life", href: "/myuni" }, { label: "Events" }]} />
       <div className="max-w-5xl mx-auto px-4 py-12">
         <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
           <p className="text-gray-600">Content for Events will be published here. Please check back soon.</p>

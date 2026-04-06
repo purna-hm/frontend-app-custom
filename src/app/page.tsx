@@ -16,7 +16,7 @@ const highlights = [
   { icon: FlaskConical, title: "Cutting-edge Research", desc: "State-of-the-art labs, patents, and publications driving real-world impact.", href: "/research" },
   { icon: Building2, title: "16 Institutes", desc: "Specialized institutes covering Engineering, Law, Management, Arts, Sciences, and more.", href: "/academics" },
   { icon: Trophy, title: "NIRF Ranked", desc: "Consistently ranked among top universities for quality education and research output.", href: "/rankings/nirf" },
-  { icon: Users, title: "Vibrant Campus Life", desc: "Sports, clubs, events, alumni network — a holistic university experience.", href: "/sage-life" },
+  { icon: Users, title: "Vibrant Campus Life", desc: "Sports, clubs, events, alumni network — a holistic university experience.", href: "/myuni" },
   { icon: BookOpen, title: "Incubation Center", desc: "Nurturing student entrepreneurship with dedicated mentoring and funding support.", href: "/about/incubation" },
 ];
 

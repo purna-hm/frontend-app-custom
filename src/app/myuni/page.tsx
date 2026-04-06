@@ -3,26 +3,26 @@ import Link from "next/link";
 import PageHeader from "@/components/ui/PageHeader";
 import { ArrowRight, Trophy, BookOpen, Users, Calendar, Newspaper, BookMarked, PenLine } from "lucide-react";
 
-export const metadata: Metadata = { title: "SAGE Life — Life at MyUni" };
+export const metadata: Metadata = { title: "MyUni Life — Life at MyUni" };
 
 const lifeLinks = [
-  { icon: Users, label: "Life@MyUni", href: "/sage-life", desc: "Campus experience and student life" },
-  { icon: Trophy, label: "MyUni Sports", href: "/sage-life/sports", desc: "Sports facilities and achievements" },
-  { icon: BookOpen, label: "MyUni Library", href: "/sage-life/library", desc: "Digital and physical library resources" },
-  { icon: Users, label: "Alumni", href: "/sage-life/alumni", desc: "Connect with our alumni network" },
-  { icon: Calendar, label: "Events", href: "/sage-life/events", desc: "Upcoming and past events" },
-  { icon: Newspaper, label: "MyUni Times", href: "/sage-life/times", desc: "University newsletter" },
-  { icon: BookMarked, label: "Print Media", href: "/sage-life/media", desc: "Media coverage and press releases" },
-  { icon: PenLine, label: "Blogs", href: "/sage-life/blogs", desc: "Student and faculty blogs" },
+  { icon: Users, label: "Life@MyUni", href: "/myuni", desc: "Campus experience and student life" },
+  { icon: Trophy, label: "MyUni Sports", href: "/myuni/sports", desc: "Sports facilities and achievements" },
+  { icon: BookOpen, label: "MyUni Library", href: "/myuni/library", desc: "Digital and physical library resources" },
+  { icon: Users, label: "Alumni", href: "/myuni/alumni", desc: "Connect with our alumni network" },
+  { icon: Calendar, label: "Events", href: "/myuni/events", desc: "Upcoming and past events" },
+  { icon: Newspaper, label: "MyUni Times", href: "/myuni/times", desc: "University newsletter" },
+  { icon: BookMarked, label: "Print Media", href: "/myuni/media", desc: "Media coverage and press releases" },
+  { icon: PenLine, label: "Blogs", href: "/myuni/blogs", desc: "Student and faculty blogs" },
 ];
 
-export default function SAGELifePage() {
+export default function MyUniLifePage() {
   return (
     <>
       <PageHeader
-        title="SAGE Life — Life at MyUni"
+        title="MyUni Life — Life at MyUni"
         subtitle="A vibrant, inclusive campus community that nurtures growth beyond academics."
-        breadcrumbs={[{ label: "Home", href: "/" }, { label: "SAGE Life" }]}
+        breadcrumbs={[{ label: "Home", href: "/" }, { label: "MyUni Life" }]}
       />
       <div className="max-w-7xl mx-auto px-4 py-12">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">

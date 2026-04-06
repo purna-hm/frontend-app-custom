@@ -19,12 +19,12 @@ const footerLinks = {
     { label: "View All Institutes", href: "/academics" },
   ],
   "Student Life": [
-    { label: "Life@MyUni", href: "/sage-life" },
-    { label: "Sports", href: "/sage-life/sports" },
-    { label: "Library", href: "/sage-life/library" },
-    { label: "Alumni", href: "/sage-life/alumni" },
-    { label: "Events", href: "/sage-life/events" },
-    { label: "Blogs", href: "/sage-life/blogs" },
+    { label: "Life@MyUni", href: "/myuni" },
+    { label: "Sports", href: "/myuni/sports" },
+    { label: "Library", href: "/myuni/library" },
+    { label: "Alumni", href: "/myuni/alumni" },
+    { label: "Events", href: "/myuni/events" },
+    { label: "Blogs", href: "/myuni/blogs" },
   ],
 };
 
